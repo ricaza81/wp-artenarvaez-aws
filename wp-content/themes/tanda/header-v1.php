@@ -19,14 +19,14 @@ global $tanda_options;
     <?php if ( ! ( function_exists( 'has_site_icon' ) && has_site_icon() ) ) { ?>
     <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="<?php echo esc_url($tanda_options['sticky-logo']['url']); ?>" type="image/x-icon">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5KCX7WTD11"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FBPDB144JS"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-5KCX7WTD11');
+  gtag('config', 'G-FBPDB144JS');
 </script>
     
 <?php } wp_head(); ?>
